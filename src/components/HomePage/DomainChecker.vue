@@ -1,5 +1,5 @@
 <template>
-  <section class="mx-auto flex flex-center flex-wrap space-x-0.5 mt-24">
+  <section class="mx-auto flex justify-between flex-wrap space-x-0.5 mt-24">
     <div class="lg:w-7/12 relative flex md:w-full sm:w-full">
       <img
         src="@/assets/images/home/domain-group/dash.png"

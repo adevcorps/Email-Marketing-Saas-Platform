@@ -3,6 +3,7 @@
   import OnlineReputation from '../../components/HomePage/OnlineReputation.vue'
   import DomainChecker from '../../components/HomePage/DomainChecker.vue'
   import EmailChecker from '../../components/HomePage/EmailChecker.vue'
+  import BulkEmailChecker from '../../components/HomePage/BulkEmailVerifier.vue'
 </script>
 
 <template>
@@ -11,5 +12,6 @@
     <OnlineReputation /> 
     <DomainChecker /> 
     <EmailChecker /> 
+    <BulkEmailChecker />
   </div>
 </template>

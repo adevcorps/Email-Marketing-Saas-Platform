@@ -40,6 +40,9 @@ module.exports = {
         "fade-in": "fade-in 250ms ease-in-out",
       },
     },
+    backgroundImage: {
+      'bulk-email': 'url("@/assets/images/home/bulk-email/bg.png")'
+    },
     fontFamily: {
       'primary': ['Montserrat']
     },
@@ -52,7 +55,7 @@ module.exports = {
       'purple': '#BB6BD9',
       'blue': '#2078BE',
       'badge': '#E24949'
-    }
+    },
   },
   plugins: [
     require("@tailwindcss/forms"),

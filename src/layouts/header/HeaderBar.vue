@@ -23,7 +23,7 @@ const handleLocation = (locale) => {
 </script>
 
 <template>
-  <div class="shadow-xl sticky top-0 bg-white z-30">
+  <div class="shadow-lg sticky top-0 bg-white z-30">
     <div class="max-w-screen-2xl mx-auto flex flex-row flex-wrap justify-between">
       <div class="p-5">
         <router-link to="/"
