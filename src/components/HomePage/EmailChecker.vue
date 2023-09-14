@@ -1,5 +1,5 @@
 <template>
-  <section class="mx-auto flex flex-center flex-wrap space-x-0.5 mt-24">
+  <section class="mx-auto flex flex-center flex-wrap space-x-4 mt-24">
     <div class="lg:w-4/12 prose font-primary  md:w-full sm:w-full sm:mb-5 md:mb-5">
       <div class="mx-auto w-9/12 md:w-full justify-center sm:w-full">
         <div class="w-full flex items-center mb-5">            
