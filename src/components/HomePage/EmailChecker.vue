@@ -1,6 +1,6 @@
 <template>
   <section class="mx-auto flex flex-center flex-wrap space-x-0.5 mt-24">
-    <div class="lg:w-1/2 prose font-primary  md:w-full sm:w-full sm:mb-5 md:mb-5">
+    <div class="lg:w-4/12 prose font-primary  md:w-full sm:w-full sm:mb-5 md:mb-5">
       <div class="mx-auto w-9/12 md:w-full justify-center sm:w-full">
         <div class="w-full flex items-center mb-5">            
             <img src="@/assets/images/home/email-checker/email-check.png" class="my-0 mr-2.5" />
@@ -15,10 +15,8 @@
         </button>
       </div>
     </div>
-    <div class="lg:w-1/2 flex justify-center relative md:w-full sm:w-full">
-      <img src="@/assets/images/home/reputation-group/dashboard.png" class="absolute z-20 w-5/5 h-5/5 sm:w-full"/>
-      <img src="@/assets/images/home/reputation-group/bubble.png" class="absolute z-10 right-1" />
-      <img src="@/assets/images/home/reputation-group/poly1.png" class="absolute w-5/5 h-5/5 z-0 right-0" />
+    <div class="lg:w-5/12 flex justify-center relative md:w-full sm:w-full">
+      <img src="@/assets/images/home/reputation-group/dashboard.png" class=" z-20 w-5/5 h-5/5 sm:w-full"/>
     </div>
   </section>
 </template>
