@@ -1,17 +1,15 @@
 <template>
   <section class="mx-auto flex flex-center flex-wrap space-x-0.5 mt-24">
     <div class="lg:w-1/2 prose font-primary  md:w-full sm:w-full sm:mb-5 md:mb-5">
-      <div class="mx-auto w-full md:w-full justify-center sm:w-full">
+      <div class="mx-auto w-9/12 md:w-full justify-center sm:w-full">
         <div class="w-full flex items-center mb-5">            
-            <img src="@/assets/images/home/email-protect.png" class="my-0" />
-            <span class="text-badge font-bold">EMAIL PROTECTION</span>
+            <img src="@/assets/images/home/email-checker/email-check.png" class="my-0 mr-2.5" />
+            <span class="text-blue font-bold">EMAIL CHECKER</span>
         </div>
-        <h1 class="text-4xl mb-5">Safeguard Your Online</h1>
-        <h1 class="text-5xl">Reputation</h1>
+        <h1 class="text-4xl mb-5">Rapid Email Checker</h1>
         <p class="text-xl mb-10 leading-9">
-          Don't let email bounces and spam complaints tarnish your brand's image. Ensure a pristine sender reputation with our Email Verification Service.
+          Ensure email accuracy with our lightning-fast Email Checker. Verify email addresses instantly and boost your communication efficiency while reducing the risk of bounces and errors.
         </p>
-
         <button class="py-3 px-6 w-50 bg-[#E24949] text-white rounded-full font-medium">
           Protect Now
         </button>

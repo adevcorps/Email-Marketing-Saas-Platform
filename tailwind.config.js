@@ -46,8 +46,12 @@ module.exports = {
     textColor: {
       'header-secondary': '#A6A6A6',
       'header-selected': '#000',
-      'primary': '#E24949',
-      'white': 'rgb(255 255 255)'
+      'primary': '#000',
+      'hover': '#E24949',
+      'white': 'rgb(255 255 255)',
+      'purple': '#BB6BD9',
+      'blue': '#2078BE',
+      'badge': '#E24949'
     }
   },
   plugins: [
