@@ -4,6 +4,7 @@
   import DomainChecker from '../../components/HomePage/DomainChecker.vue'
   import EmailChecker from '../../components/HomePage/EmailChecker.vue'
   import BulkEmailChecker from '../../components/HomePage/BulkEmailVerifier.vue'
+  import Services from '../../components/HomePage/Services.vue'
 </script>
 
 <template>
@@ -13,5 +14,6 @@
     <DomainChecker /> 
     <EmailChecker /> 
     <BulkEmailChecker />
+    <Services />
   </div>
 </template>
