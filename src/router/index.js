@@ -72,7 +72,7 @@ const routes = [
     },
     path: "/login",
     name: "login",
-    component: () => import("@/views/admin/LoginView.vue"),
+    component: () => import("@/views/auth/LoginPage.vue"),
   },
   {
     meta: {
