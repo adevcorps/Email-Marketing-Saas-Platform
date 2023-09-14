@@ -1,3 +1,11 @@
+<script setup>
+  import EmailMarketing from '../../components/HomePage/EmailMarketing.vue'
+  import OnlineReputation from '../../components/HomePage/OnlineReputation.vue'
+</script>
+
 <template>
-  <h1>This is homepage</h1>
+  <div class="px-5 container mx-auto">
+    <EmailMarketing /> 
+    <OnlineReputation /> 
+  </div>
 </template>

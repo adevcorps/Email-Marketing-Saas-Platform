@@ -15,11 +15,13 @@
     "numeral": "^2.0.6",
     "pinia": "^2.0.13",
     "vue": "^3.0.0",
+    "vue-i18n": "^9.4.0",
     "vue-router": "^4.0.0"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.1.4",
     "@tailwindcss/forms": "^0.5.1",
+    "@tailwindcss/typography": "^0.5.10",
     "@vitejs/plugin-vue": "^3.0.3",
     "@vue/eslint-config-prettier": "^7.0.0",
     "autoprefixer": "^10.2.6",

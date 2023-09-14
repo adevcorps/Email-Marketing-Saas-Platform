@@ -40,9 +40,19 @@ module.exports = {
         "fade-in": "fade-in 250ms ease-in-out",
       },
     },
+    fontFamily: {
+      'primary': ['Montserrat']
+    },
+    textColor: {
+      'header-secondary': '#A6A6A6',
+      'header-selected': '#000',
+      'primary': '#E24949',
+      'white': 'rgb(255 255 255)'
+    }
   },
   plugins: [
     require("@tailwindcss/forms"),
+    require('@tailwindcss/typography'),
     plugin(function ({ matchUtilities, theme }) {
       matchUtilities(
         {
