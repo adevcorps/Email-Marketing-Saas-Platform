@@ -24,7 +24,7 @@
         <div class="lg:w-7/12 flex justify-center relative md:w-full sm:w-full">
           <img
             src="@/assets/images/home/reputation-group/dashboard.png"
-            class="absolute z-20 sm:w-full"
+            class="absolute h-4.5/5 z-20 sm:w-full"
           />
         </div>
       </div>

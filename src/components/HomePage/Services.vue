@@ -66,12 +66,13 @@ const dataArray = [
 <template>
   <section>
     <div class="mx-auto container">
-      <div class="flex flex-col mt-44">
-        <div class="flex justify-center items-center mx-auto mb-10 w-full">
+      <div class="flex flex-col justify-center mt-32">
+        <div class="flex justify-center items-center mx-auto w-full">
           <img src="@/assets/images/home/clarifio.png" />
-          <h1 class="text-4xl font-semibold text-primary">&nbsp; Why Clarifio</h1>
+          <h1 class="text-4xl font-[800] font-primary text-primary">&nbsp; Why Clarifio</h1>
         </div>
-        <div class="px-32 flex flex-row flex-wrap justify-between mx-auto w-full">
+        <p class="w-8/12 font-primary text-[#231F20] text-[18px]   font-[500] text-center mx-auto  py-2">The most comprehensive email verification service with 99%+ verification accuracy. Email list verification, bulk email verifier, email verifier API & automated email verification in one place.</p>
+        <div class="px-23 py-5 flex flex-row flex-wrap justify-between mx-auto w-full">
           <Card
             v-for="data in dataArray"
             :key="data.title"

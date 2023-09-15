@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="container mx-auto">
-      <div class="flex flex-wrap mt-44">
+      <div class="flex flex-wrap mt-28">
         <div class="lg:w-7/12 relative flex md:w-full sm:w-full">
           <img
             src="@/assets/images/home/domain-group/dash.png"

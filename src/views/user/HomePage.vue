@@ -8,6 +8,7 @@
   import EmailListVerifier from '../../components/HomePage/EmailListVerifier.vue'
   import RealTimeApi from '../../components/HomePage/RealTimeApi.vue'
   import Pricing from '../../components/HomePage/Pricing.vue'
+  import Review from '../../components/HomePage/Review.vue'
 </script>
 
 <template>
@@ -21,5 +22,6 @@
     <EmailListVerifier />
     <RealTimeApi />
     <Pricing />
+    <Review />
   </div>
 </template>
