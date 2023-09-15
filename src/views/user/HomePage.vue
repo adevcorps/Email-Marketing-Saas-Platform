@@ -5,15 +5,21 @@
   import EmailChecker from '../../components/HomePage/EmailChecker.vue'
   import BulkEmailChecker from '../../components/HomePage/BulkEmailVerifier.vue'
   import Services from '../../components/HomePage/Services.vue'
+  import EmailListVerifier from '../../components/HomePage/EmailListVerifier.vue'
+  import RealTimeApi from '../../components/HomePage/RealTimeApi.vue'
+  import Pricing from '../../components/HomePage/Pricing.vue'
 </script>
 
 <template>
-  <div class="px-5 container mx-auto">
+  <div class="mx-auto">
     <EmailMarketing /> 
     <OnlineReputation /> 
     <DomainChecker /> 
     <EmailChecker /> 
     <BulkEmailChecker />
     <Services />
+    <EmailListVerifier />
+    <RealTimeApi />
+    <Pricing />
   </div>
 </template>

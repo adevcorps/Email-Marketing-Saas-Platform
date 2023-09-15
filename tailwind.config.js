@@ -1,7 +1,7 @@
 /* eslint-env node */
 
 const plugin = require("tailwindcss/plugin");
-
+const colors = require('tailwindcss/colors');
 module.exports = {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   darkMode: "class", // or 'media' or 'class'
@@ -39,9 +39,17 @@ module.exports = {
         "fade-out": "fade-out 250ms ease-in-out",
         "fade-in": "fade-in 250ms ease-in-out",
       },
+      lineHeight: {
+        "72": "72px",
+        "60": "60px"
+      }
     },
     backgroundImage: {
-      'bulk-email': 'url("@/assets/images/home/bulk-email/bg.png")'
+      'bulk-email': 'url("@/assets/images/home/bulk-email/bg.png")',
+      'semi-blue': '#A6D3F1',
+      'semil-red': '#DDB1F0',
+      'pricing-card-bg': "linear-gradient(180deg, #A6D3F1 0%, #DDB1F0 100%)"
+
     },
     fontFamily: {
       'primary': ['Montserrat']
@@ -54,7 +62,8 @@ module.exports = {
       'white': 'rgb(255 255 255)',
       'purple': '#BB6BD9',
       'blue': '#2078BE',
-      'badge': '#E24949'
+      'badge': '#E24949',
+      'card-subtitle': '#2F2F2F'
     },
   },
   plugins: [
