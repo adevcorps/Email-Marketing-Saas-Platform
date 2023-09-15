@@ -2,75 +2,54 @@
   <div class="flex flex-grow-0 flex-col sm:flex-row">
     <div class="h-screen overflow-scroll w-full">
       <div class="flex px-2 flex-col justify-center self-stretch min-h-screen">
-        <div class="flex max-w-[100%] w-[360px] flex-col items-start mx-auto my-6">
-          <img src="@/assets/images/logo.png" alt="logo" class="mb-20" />
+        <div
+          class="flex max-w-[100%] w-[360px] flex-col items-start mx-auto my-6"
+        >
           <!-- Header and form -->
-          <h1 class="font-primary text-[22px] font-bold leading-5 pb-3">
-            Log in
-          </h1>
-          <p
-            class="text-[#475467] font-primary text-[14px] font-semibold leading-5 pb-8"
-          >
-            Welcome back! Please enter your details.
-          </p>
-          <p
-            class="text-[#475467] font-primary text-[14px] font-semibold leading-5 pb-1.5"
-          >
-            Email
-          </p>
-          <input
-            type="email"
-            name="email"
-            placeholder="Enter your email"
-            value=""
-            class="flex py-2.5 px-3.5 gap-2 self-stretch rounded-lg border border-solid shadow-sm text-[#475467] font-primary text-[14px] font-semibold"
-          />
-          <p
-            class="text-[#475467] font-primary text-[14px] font-semibold leading-5 pb-1.5 pt-5"
-          >
-            Password
-          </p>
-          <input
-            type="password"
-            name="Password"
-            placeholder="Enter your password"
-            value="asdfasdf"
-            class="flex py-2.5 px-3.5 gap-2 self-stretch rounded-lg border border-solid shadow-sm text-[#475467] font-primary text-[14px] font-semibold"
-          />
-          <div class="flex items-center self-stretch py-6">
-            <div class="flex items-start justify-between w-full">
-              <div class="flex items-center mb-4">
-                <input
-                  id="default-checkbox"
-                  type="checkbox"
-                  class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:outline-none"
-                />
-                <p
-                  class="text-[#475467] font-primary text-[14px] font-semibold leading-5 pl-2"
-                >
-                  Remember for 30 days
-                </p>
-              </div>
-              <div>
-                <p
-                  class="text-[#E24949] font-primary text-[14px] font-semibold leading-5"
-                >
-                  Forgot password
-                </p>
-              </div>
-            </div>
+          <div class="my-6 mx-auto flex flex-col justify-center items-center">
+            <img src="@/assets/images/logo.png" alt="logo" class="mb-20" />
+            <svg width="66" height="66" viewBox="0 0 66 66" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="5" y="5" width="56" height="56" rx="28" fill="#D1FADF"/>
+<path d="M27.7487 33.0002L31.2487 36.5002L38.2487 29.5002M44.6654 33.0002C44.6654 39.4435 39.442 44.6668 32.9987 44.6668C26.5554 44.6668 21.332 39.4435 21.332 33.0002C21.332 26.5568 26.5554 21.3335 32.9987 21.3335C39.442 21.3335 44.6654 26.5568 44.6654 33.0002Z" stroke="#039855" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="5" y="5" width="56" height="56" rx="28" stroke="#ECFDF3" stroke-width="10"/>
+</svg>
+
+            <h1
+              class="font-primary text-[22px] font-bold leading-5 pt-8 mx-auto"
+            >
+            Password reset
+            </h1>
+            <p
+              class="text-[#475467] text-center font-primary text-[16px] leading-5 pt-3 pb-8 mx-auto"
+            >
+            Your password has been successfully reset. Click below to log in magically.
+            </p>
           </div>
           <button
-            class="h-10 w-full bg-[#E24949] text-white text-[14px] rounded-lg font-semibold font-primary mb-4"
+            class="h-10 w-full bg-[#E24949] text-white text-[16px] rounded-lg font-primary mb-4"
           >
-            Sign in
+          Continue
           </button>
-          <p
-            class="text-[#475467] font-primary text-[14px] font-semibold leading-5 w-full text-center"
+          <div
+            class="flex text-[#475467] font-primary text-[16px] leading-5 w-full text-center justify-center items-center pt-8"
           >
-            <span>Don’t have an account?</span>
-            <span class="text-[#E24949] pl-1">Sign up</span>
-          </p>
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 20 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M15.8346 10.0001H4.16797M4.16797 10.0001L10.0013 15.8334M4.16797 10.0001L10.0013 4.16675"
+                stroke="#475467"
+                stroke-width="1.66667"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <span class="pl-2">Back to log in</span>
+          </div>
         </div>
       </div>
     </div>

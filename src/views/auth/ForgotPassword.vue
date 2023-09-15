@@ -2,19 +2,52 @@
   <div class="flex flex-grow-0 flex-col sm:flex-row">
     <div class="h-screen overflow-scroll w-full">
       <div class="flex px-2 flex-col justify-center self-stretch min-h-screen">
-        <div class="flex max-w-[100%] w-[360px] flex-col items-start mx-auto my-6">
-          <img src="@/assets/images/logo.png" alt="logo" class="mb-20" />
+        <div
+          class="flex max-w-[100%] w-[360px] flex-col items-start mx-auto my-6"
+        >
+          <img
+            src="@/assets/images/logo.png"
+            alt="logo"
+            class="mb-20 mx-auto"
+          />
           <!-- Header and form -->
-          <h1 class="font-primary text-[22px] font-bold leading-5 pb-3">
-            Log in
-          </h1>
+          <div class="mx-auto flex flex-col items-center justify-center">
+            <svg
+              width="66"
+              height="66"
+              viewBox="0 0 66 66"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect x="5" y="5" width="56" height="56" rx="28" fill="#F4EBFF" />
+              <path
+                d="M38.8333 29.4999C38.8333 28.9028 38.6055 28.3057 38.1499 27.8501C37.6943 27.3945 37.0972 27.1667 36.5 27.1667M36.5 36.5C40.366 36.5 43.5 33.366 43.5 29.5C43.5 25.634 40.366 22.5 36.5 22.5C32.634 22.5 29.5 25.634 29.5 29.5C29.5 29.8193 29.5214 30.1336 29.5628 30.4415C29.6309 30.948 29.6649 31.2013 29.642 31.3615C29.6181 31.5284 29.5877 31.6184 29.5055 31.7655C29.4265 31.9068 29.2873 32.046 29.009 32.3243L23.0467 38.2866C22.845 38.4884 22.7441 38.5893 22.6719 38.707C22.608 38.8114 22.5608 38.9252 22.5322 39.0442C22.5 39.1785 22.5 39.3212 22.5 39.6065V41.6333C22.5 42.2867 22.5 42.6134 22.6272 42.863C22.739 43.0825 22.9175 43.261 23.137 43.3728C23.3866 43.5 23.7133 43.5 24.3667 43.5H27.1667V41.1667H29.5V38.8333H31.8333L33.6757 36.991C33.954 36.7127 34.0932 36.5735 34.2345 36.4945C34.3816 36.4123 34.4716 36.3819 34.6385 36.358C34.7987 36.3351 35.052 36.3691 35.5585 36.4372C35.8664 36.4786 36.1807 36.5 36.5 36.5Z"
+                stroke="#E24949"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <rect
+                x="5"
+                y="5"
+                width="56"
+                height="56"
+                rx="28"
+                stroke="#F9F5FF"
+                stroke-width="10"
+              />
+            </svg>
+            <h1 class="font-primary text-[22px] font-bold leading-5 pb-3 pt-6">
+              Forgot password?
+            </h1>
+            <p
+              class="text-[#475467] font-primary text-[16px] font-normal leading-5 pb-8"
+            >
+              No worries, we’ll send you reset instructions.
+            </p>
+          </div>
           <p
-            class="text-[#475467] font-primary text-[14px] font-semibold leading-5 pb-8"
-          >
-            Welcome back! Please enter your details.
-          </p>
-          <p
-            class="text-[#475467] font-primary text-[14px] font-semibold leading-5 pb-1.5"
+            class="text-[#475467] font-primary text-[16px] leading-5 pb-1.5 pt-5"
           >
             Email
           </p>
@@ -23,54 +56,33 @@
             name="email"
             placeholder="Enter your email"
             value=""
-            class="flex py-2.5 px-3.5 gap-2 self-stretch rounded-lg border border-solid shadow-sm text-[#475467] font-primary text-[14px] font-semibold"
+            class="flex py-2.5 px-3.5 mb-6 gap-2 self-stretch rounded-lg border border-solid shadow-sm text-[#475467] font-primary text-[16px]"
           />
-          <p
-            class="text-[#475467] font-primary text-[14px] font-semibold leading-5 pb-1.5 pt-5"
-          >
-            Password
-          </p>
-          <input
-            type="password"
-            name="Password"
-            placeholder="Enter your password"
-            value="asdfasdf"
-            class="flex py-2.5 px-3.5 gap-2 self-stretch rounded-lg border border-solid shadow-sm text-[#475467] font-primary text-[14px] font-semibold"
-          />
-          <div class="flex items-center self-stretch py-6">
-            <div class="flex items-start justify-between w-full">
-              <div class="flex items-center mb-4">
-                <input
-                  id="default-checkbox"
-                  type="checkbox"
-                  class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:outline-none"
-                />
-                <p
-                  class="text-[#475467] font-primary text-[14px] font-semibold leading-5 pl-2"
-                >
-                  Remember for 30 days
-                </p>
-              </div>
-              <div>
-                <p
-                  class="text-[#E24949] font-primary text-[14px] font-semibold leading-5"
-                >
-                  Forgot password
-                </p>
-              </div>
-            </div>
-          </div>
           <button
-            class="h-10 w-full bg-[#E24949] text-white text-[14px] rounded-lg font-semibold font-primary mb-4"
+            class="h-10 w-full bg-[#E24949] text-white text-[16px] rounded-lg font-primary mb-4"
           >
-            Sign in
+            Reset password
           </button>
-          <p
-            class="text-[#475467] font-primary text-[14px] font-semibold leading-5 w-full text-center"
+          <div
+            class="flex text-[#475467] font-primary text-[16px] font-normal leading-5 w-full text-center justify-center items-center pt-8"
           >
-            <span>Don’t have an account?</span>
-            <span class="text-[#E24949] pl-1">Sign up</span>
-          </p>
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 20 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M15.8346 10.0001H4.16797M4.16797 10.0001L10.0013 15.8334M4.16797 10.0001L10.0013 4.16675"
+                stroke="#475467"
+                stroke-width="1.66667"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <span class="pl-2">Back to log in</span>
+          </div>
         </div>
       </div>
     </div>
