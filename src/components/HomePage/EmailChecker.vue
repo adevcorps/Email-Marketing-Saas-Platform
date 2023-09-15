@@ -1,8 +1,8 @@
 <template>
   <section>
-    <div class="container mx-auto mt-34">
-      <div class="mx-auto justify-between flex flex-wrap space-x-4">
-        <div class="lg:w-4/12 prose font-primary md:w-full sm:w-full sm:mb-5 md:mb-5">
+    <div class="container mx-auto mt-20">
+      <div class="mx-auto  flex flex-wrap space-x-4">
+        <div class="lg:w-6/12 prose font-primary md:w-full sm:w-full sm:mb-5 md:mb-5">
           <div class="mx-auto w-9/12 md:w-full justify-center sm:w-full">
             <div class="w-full flex items-center mb-5">
               <img
@@ -24,18 +24,18 @@
             </button>
           </div>
         </div>
-        <div class="lg:w-5/12 flex relative md:w-full sm:w-full">
+        <div class="lg:w-6/12 flex relative md:w-full sm:w-full">
           <img
             src="@/assets/images/home/email-checker/board1.png"
-            class="absolute max-w-md right-1"
+            class="absolute h-full right-1"
           />
           <img
             src="@/assets/images/home/email-checker/board2.png"
-            class="absolute max-w-md left-1"
+            class="absolute max-w-lg left-[18%]"
           />
           <img
             src="@/assets/images/home/email-checker/table.png"
-            class="z-10 max-w-lg mx-8 mt-3 sm:w-full"
+            class="z-10 max-w-lg ml-30 mt-3 sm:w-full"
           />
         </div>
       </div>
