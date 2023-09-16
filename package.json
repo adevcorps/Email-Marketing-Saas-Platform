@@ -15,8 +15,10 @@
     "numeral": "^2.0.6",
     "pinia": "^2.0.13",
     "vue": "^3.0.0",
+    "vue-carousel": "^0.18.0",
     "vue-i18n": "^9.4.0",
-    "vue-router": "^4.0.0"
+    "vue-router": "^4.0.0",
+    "vue3-carousel": "^0.3.1"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.1.4",
