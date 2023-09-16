@@ -5,7 +5,7 @@
         <h1 class="text-white font-primary font-semibold text-[36px] my-14">
           Don't take our word
         </h1>
-        <div class="w-full">
+        <div class="w-full bg-[#FFFFFF] border rounded-xl">
           <carousel :items-to-show="1">
             <slide v-for="slide in 3" :key="slide">
               <CarouselItem />
